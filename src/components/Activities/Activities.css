@@ -1,0 +1,35 @@
+.activities-section-heading {
+  margin-bottom: 30px;
+}
+
+.service-item {
+  height: 450px;
+  background-color: white !important;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.actImage {
+  width: 100%;
+  padding: 12px 12px 0 12px;
+  border-radius: 17px;
+}
+
+.activitiesPara {
+  margin: 0 15px 0 15px;
+}
+
+.learnMore {
+  display: flex;
+  padding: 26px;
+  align-items: center;
+  justify-content: center;
+}
+
+.learnMore-button {
+  border: none;
+  border: 0.2px solid grey;
+  padding: 8px 10px;
+  background-color: #e4e4e4;
+  outline: none !important;
+}
