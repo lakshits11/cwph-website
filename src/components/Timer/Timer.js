@@ -34,7 +34,7 @@ const CountDownTimer = () => {
     }
   };
 
-  const ed = new Date(2022, 0, 25, 21, 9, 0);
+  const ed = new Date(2022, 0, 31, 21, 9, 0);
   var eventDate = ed.toISOString();
 
   return (
