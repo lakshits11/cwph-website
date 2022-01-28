@@ -8,10 +8,20 @@ const Quotes = () => {
   const random = () => {
     var x = Math.floor(Math.random() * QuotesData.length);
     const arr = [QuotesData[x].quoteText, QuotesData[x].quoteAuthor];
+
+    function name(name){
+      console.log(name.length)
+      if(name.length === 0){
+        return "Anonymous";
+      }
+      else{
+        return name
+      }
+    }
     return (
       <>
         <h3>{arr[0]}</h3>
-        <p>{arr[1]}</p>
+        <p>{name(arr[1])}</p>
       </>
     );
   };
