@@ -17,3 +17,31 @@
 .down-content-student {
   width: 100% !important;
 }
+
+.team-item{
+  padding-left: 12%;
+}
+
+@media (min-width: 640px) {
+  .team-item {
+    padding-left: 12%;
+  }
+}
+
+@media (min-width: 768px) {
+  .team-item {
+    padding-left: 12%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .team-item {
+    padding-left: 12%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .team-item {
+    padding-left: 12%;
+  }
+}
