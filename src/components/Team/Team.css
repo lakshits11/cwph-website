@@ -18,32 +18,17 @@
   width: 100% !important;
   background-color: #f7f7f7;
   border-radius: 10%;
+  height: 100% !important;
 }
 
 .team-item {
-  padding-left: 12%;
+  padding-left: 0 !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@media (min-width: 640px) {
-  .team-item {
-    padding-left: 12%;
-  }
-}
-
-@media (min-width: 768px) {
-  .team-item {
-    padding-left: 12%;
-  }
-}
-
-@media (min-width: 1024px) {
-  .team-item {
-    padding-left: 12%;
-  }
-}
-
-@media (min-width: 1280px) {
-  .team-item {
-    padding-left: 12%;
-  }
+.team-item > img{
+  height: 300px;
+  object-fit:cover;
 }

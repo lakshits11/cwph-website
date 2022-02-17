@@ -1,11 +1,20 @@
-// import React from "react";
+import React, {useState, useEffect} from "react";
 import { Tab, Tabs, Row, Col, Nav, Sonnet, Fade } from "react-bootstrap";
 import "./Team.css";
+import { teamList } from "./teamList";
+
 
 const Team = () => {
   const style = {
     color: "#000",
   };
+
+  // const [team_list, set_team_list] = useState()
+
+  // useEffect(() => {
+  //   set_team_list(teamList)
+  // })
+
   return (
     <div>
       <div className="page-heading header-text">
@@ -81,8 +90,9 @@ const Team = () => {
 
       {/* <!-- Team Starts Here --> */}
       <div className="team-section">
-        <div className="container">
-          <div className="row justify-content-md-center">
+        <div className="container-fluid">
+          <div className="row justify-content-center">
+            
             <div className="col-md-8">
               <div className="section-heading">
                 <span>Our Team</span>
@@ -94,209 +104,33 @@ const Team = () => {
                 </p>
               </div>
             </div>
-            <div className="w-100 text-center mb-4">
-              <h4>Faculty</h4>
-            </div>
-            <div className="col-md-3 col-sm-6 col-xs-12">
-              <div className="team-item">
-                <img
-                  src="/images/team-images/amit-neogi-sir.jpg"
-                  style={{ width: "75%", height: "210px" }}
-                  alt=""
-                />
-                <div className="down-content">
-                  <h4>Dr. Amit Neogi</h4>
-                  <span>Center Lead</span>
+            {teamList.map((team, i) => (
+              <div className="row justify-content-center" key={i} style={{width: '90%'}}>
+                <div className="w-100 text-center mb-4">
+                  <h4>{team.designation}</h4>
                 </div>
+                {team.list.map((member, j) => (
+                  <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12" key={j}>
+                    <div className="team-item">
+                      <img
+                        src={member.image}
+                        style={{ width: "75%" }}
+                        alt=""
+                      />
+                      <div className="down-content">
+                        <h4>{member.name}</h4>
+                        <span>{member.responsibility}</span>
+                      </div>
+                    </div>
+                  </div>
+                ))}
               </div>
-            </div>
-            <div className="col-md-3 col-sm-6 col-xs-12">
-              <div className="team-item">
-                <img
-                  src="images/team-images/ap-singh-sir.jpg"
-                  style={{ width: "75%", height: "210px" }}
-                  alt=""
-                />
-                <div className="down-content">
-                  <h4>Prof. A P Singh</h4>
-                  <span>Faculty</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-3 col-sm-6 col-xs-12">
-              <div className="team-item">
-                <img
-                  src="/images/team-images/manuj-sharma-sir.jpg"
-                  style={{ width: "75%", height: "210px" }}
-                  alt=""
-                />
-                <div className="down-content">
-                  <h4>Mr. Manuj Sharma</h4>
-                  <span>Training and Placement Officer</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-3 col-sm-6 col-xs-12">
-              <div className="team-item">
-                <img
-                  src="/images/team-images/mukesh-jadon-sir.jpg"
-                  style={{ width: "75%", height: "210px" }}
-                  alt=""
-                />
-                <div className="down-content">
-                  <h4>Mr. Mukesh Kumar Jadon</h4>
-                  <span>Faculty</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-3 col-sm-6 col-xs-12">
-              <div className="team-item">
-                <img
-                  src="/images/team-images/anirudh-agarwal-sir.jpg"
-                  style={{ width: "75%", height: "210px" }}
-                  alt=""
-                />
-                <div className="down-content">
-                  <h4>Dr. Anirudh Agarwal</h4>
-                  <span>Faculty</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-3 col-sm-6 col-xs-12">
-              <div className="team-item">
-                <img
-                  src="/images/team-images/vikram-sharma-sir.jpg"
-                  style={{ width: "75%", height: "210px" }}
-                  alt=""
-                />
-                <div className="down-content">
-                  <h4>Dr. Vikram Sharma</h4>
-                  <span>Faculty</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-3 col-sm-6 col-xs-12">
-              <div className="team-item">
-                <img
-                  src="/images/team-images/shweta-bhandari-mam.jpg"
-                  style={{ width: "75%", height: "210px" }}
-                  alt=""
-                />
-                <div className="down-content">
-                  <h4>Dr. Shweta Bhandari</h4>
-                  <span>Faculty</span>
-                </div>
-              </div>
-            </div>
-            {/* <div className="col-md-3 col-sm-6 col-xs-12">
-              <div className="team-item">
-                <img
-                  src="https://traditionalyoga.s3.us-west-2.amazonaws.com/wp-content/uploads/2020/08/10035151/pp-size.jpeg"
-                   style={{ width: "75%", height:"210px" }}
-                  alt=""
-                />
-                <div className="down-content">
-                  <h4>Mr. Mukesh Kumar Jadon</h4>
-                  <span>Faculty</span>
-                </div>
-              </div>
-            </div> */}
-            <div className="col-md-3 col-sm-6 col-xs-12">
-              <div className="team-item">
-                <img
-                  src="/images/team-images/nirmal-kumar-sir.jpg"
-                  style={{ width: "75%", height: "210px" }}
-                  alt=""
-                />
-                <div className="down-content">
-                  <h4>Mr. Nirmal Kumar</h4>
-                  <span>Faculty</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-3 col-sm-6 col-xs-12">
-              <div className="team-item">
-                <img
-                  src="/images/team-images/shweta-pandey-mam.jpg"
-                  style={{ width: "75%", height: "210px" }}
-                  alt=""
-                />
-                <div className="down-content">
-                  <h4>Dr. Shweta Pandey</h4>
-                  <span>Faculty</span>
-                </div>
-              </div>
-            </div>
-            <div className="w-100 text-center mt-4 mb-4">
-              <h4>Counsellors</h4>
-            </div>
-            <div className="col-md-3 col-sm-6 col-xs-12">
-              <div className="team-item">
-                <img
-                  src="/images/team-images/ruchir-sodhani-sir.jpg"
-                  style={{ width: "75%", height: "210px" }}
-                  alt=""
-                />
-                <div className="down-content">
-                  <h4>Mr. Ruchir Sodhani</h4>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-3 col-sm-6 col-xs-12">
-              <div className="team-item">
-                <img
-                  src="/images/team-images/arshitaa-nair-mam.jpg"
-                  style={{ width: "75%", height: "210px" }}
-                  alt=""
-                />
-                <div className="down-content">
-                  <h4>Mrs. Arshitaa Nair</h4>
-                </div>
-              </div>
-            </div>
-            <div className="w-100 text-center mt-4 mb-4">
-              <h4>Past Co-ordinators</h4>
-            </div>
-            <div className="col-md-3 col-sm-6 col-xs-12">
-              <div className="team-item">
-                <img
-                  src="/images/team-images/abhimanyu-singh-mertiya.jpg"
-                  style={{ width: "75%", height: "210px" }}
-                  alt=""
-                />
-                <div className="down-content">
-                  <h4>Abhimanyu Singh Mertiya</h4>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-3 col-sm-6 col-xs-12">
-              <div className="team-item">
-                <img
-                  src="/images/team-images/saurav-kishore.jpg"
-                  style={{ width: "75%", height: "210px" }}
-                  alt=""
-                />
-                <div className="down-content">
-                  <h4>Saurav Kishore</h4>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-3 col-sm-6 col-xs-12">
-              <div className="team-item">
-                <img
-                  src="/images/team-images/pranshul-garg.jpg"
-                  style={{ width: "75%", height: "210px" }}
-                  alt=""
-                />
-                <div className="down-content">
-                  <h4>Pranshul Garg</h4>
-                </div>
-              </div>
-            </div>
+            ))}
+            <div className="row justify-content-center" style={{width: '90%'}}>
             <div className="w-100 text-center mt-4 mb-4">
               <h4>Student Members</h4>
             </div>
-            <div className="col-md-3 col-sm-6 col-xs-12">
+            <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
               <div className="team-item">
                 <div
                   style={{ textAlign: "start" }}
@@ -312,7 +146,7 @@ const Team = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-3 col-sm-6 col-xs-12">
+            <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
               <div className="team-item">
                 <div
                   style={{ textAlign: "start" }}
@@ -328,7 +162,7 @@ const Team = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-3 col-sm-6 col-xs-12">
+            <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
               <div className="team-item">
                 <div
                   style={{ textAlign: "start" }}
@@ -344,7 +178,7 @@ const Team = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-3 col-sm-6 col-xs-12">
+            <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
               <div className="team-item">
                 <div
                   style={{ textAlign: "start" }}
@@ -358,6 +192,7 @@ const Team = () => {
                   </ul>
                 </div>
               </div>
+            </div>
             </div>
           </div>
         </div>

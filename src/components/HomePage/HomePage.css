@@ -335,7 +335,7 @@
   cursor: pointer;
   margin-bottom: 30px;
 }
-.team-item img {
+.team-item  img {
   width: 100%;
   overflow: hidden;
   transition: all 0.5s;
@@ -847,5 +847,18 @@ small::before {
 
   .right {
     right: -10px;
+  }
+}
+.host-image{
+  height: 300px !important;
+  width: 75% !important;
+  object-fit: cover;
+  border: 2px solid black;
+  border-radius: 10%;
+}
+
+@media screen and (max-width: 600px) {
+  .host-image{
+    width: 60% !important;
   }
 }

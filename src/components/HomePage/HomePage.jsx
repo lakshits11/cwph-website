@@ -183,15 +183,9 @@ const HomePage = () => {
               <div className="team_item">
                 <div className="team_img">
                   <img
-                    className="img-fluid"
+                    className="host-image"
                     src="/images/team-images/amit-neogi-sir.jpg"
                     alt=""
-                    style={{
-                      width: "67%",
-                      height: "210px",
-                      border: "2px solid black",
-                      borderRadius: "10%",
-                    }}
                   />
                 </div>
                 <div className="team_name">
@@ -220,15 +214,9 @@ const HomePage = () => {
               <div className="team_item">
                 <div className="team_img">
                   <img
-                    className="img-fluid"
+                    className="host-image"
                     src="/images/team-images/ap-singh-sir.jpg"
                     alt=""
-                    style={{
-                      width: "67%",
-                      height: "210px",
-                      border: "2px solid black",
-                      borderRadius: "10%",
-                    }}
                   />
                 </div>
                 <div className="team_name">
@@ -257,15 +245,9 @@ const HomePage = () => {
               <div className="team_item">
                 <div className="team_img">
                   <img
-                    className="img-fluid"
+                    className="host-image"
                     src="/images/team-images/manuj-sharma-sir.jpg"
                     alt=""
-                    style={{
-                      width: "67%",
-                      height: "210px",
-                      border: "2px solid black",
-                      borderRadius: "10%",
-                    }}
                   />
                 </div>
                 <div className="team_name">
@@ -294,15 +276,9 @@ const HomePage = () => {
               <div className="team_item">
                 <div className="team_img">
                   <img
-                    className="img-fluid"
+                    className="host-image"
                     src="/images/team-images/mukesh-jadon-sir.jpg"
                     alt=""
-                    style={{
-                      width: "67%",
-                      height: "210px",
-                      border: "2px solid black",
-                      borderRadius: "10%",
-                    }}
                   />
                 </div>
                 <div className="team_name">
