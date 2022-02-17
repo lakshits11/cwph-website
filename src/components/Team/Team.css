@@ -1,5 +1,5 @@
 .header-text {
-  background-image: url("../../images/bannerHomepage.jpg");
+  background-image: url("/public/images/bannerHomepage.jpg");
 }
 
 .nav-tabs .nav-item.show .nav-link,
@@ -16,9 +16,11 @@
 
 .down-content-student {
   width: 100% !important;
+  background-color: #f7f7f7;
+  border-radius: 10%;
 }
 
-.team-item{
+.team-item {
   padding-left: 12%;
 }
 

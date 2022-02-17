@@ -1,9 +1,6 @@
 import "./HomePage.css";
-import sectionHeaderImage from "../../images/wellness2.jpg";
-import passportPhoto from "../../images/passportPhoto.jpg";
 import WellnessCards from "./WellnessCards";
 import Quotes from "../Quotes/Quotes";
-
 import CountDownTimer from "../Timer/Timer";
 
 const HomePage = () => {
@@ -48,13 +45,28 @@ const HomePage = () => {
                   </p>
                 </div>
                 <div className="section-heading-image">
-                  <img src={sectionHeaderImage} alt="" />
+                  <img src="/images/wellness2.jpg" alt="" />
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <div
+        className="seperation-line"
+        style={{
+          width: "79.1vw",
+          height: "12px",
+          borderBottom: "2px solid #CCCCCC",
+          // marginLeft: "15vw",
+          // position: "relative",
+          // alignContent: "center",
+          // display: "flex",
+          // justifyContent: "center",
+          // margin: "auto",
+          margin: "37px auto",
+        }}
+      ></div>
       <WellnessCards />
       <div className="features-section">
         <div className="container">
@@ -133,32 +145,60 @@ const HomePage = () => {
         </div>
       </div>
 
+      <div
+        className="seperation-line"
+        style={{
+          width: "79.1vw",
+          height: "12px",
+          borderBottom: "2px solid #CCCCCC",
+          // marginLeft: "15vw",
+          // position: "relative",
+          // alignContent: "center",
+          // display: "flex",
+          // justifyContent: "center",
+          // margin: "auto",
+          margin: "37px auto",
+        }}
+      ></div>
       {/* Head Team Section Starts -->  */}
       <section className="team_area section_gap" id="team_area">
         <div className="container py-4">
           <div className="main_title text-center">
-            <h2>People You May Know</h2>
-            <p>Contact Details of our Counsellors, Faculty, Staff and Alumini</p>
+            <h2 style={{ fontWeight: "bold" }}>People You May Know</h2>
+            <p
+              style={{
+                color: "#00bcd4",
+                fontSize: "15px",
+                fontWeight: "500",
+                letterSpacing: "0.5px",
+                display: "inline-block",
+                marginTop: "0px",
+              }}
+            >
+              Contact Details of our Counsellors, Faculty, Staff and Alumini
+            </p>
           </div>
-          <div className="row team_inner pt-4">
+          <div className="row team_inner pt-5">
             <div className="col-lg-3 col-md-6">
               <div className="team_item">
                 <div className="team_img">
                   <img
                     className="img-fluid"
-                    src={passportPhoto}
+                    src="/images/team-images/amit-neogi-sir.jpg"
                     alt=""
-                    style={{ width: "67%" }}
+                    style={{
+                      width: "67%",
+                      height: "210px",
+                      border: "2px solid black",
+                      borderRadius: "10%",
+                    }}
                   />
                 </div>
                 <div className="team_name">
                   <h4>Dr. Amit Neogi</h4>
                   <p>Center Lead</p>
-                  <p className="mt-20">
-                    So seed seed green that winged cattle in kath moved us land years
-                    living.
-                  </p>
-                  <div className="social">
+                  <p className="mt-20"></p>
+                  {/* <div className="social">
                     <a href="#">
                       <i className="fa fa-facebook"></i>
                     </a>
@@ -171,7 +211,7 @@ const HomePage = () => {
                     <a href="#">
                       <i className="fa fa-envelope-o"></i>
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -181,19 +221,21 @@ const HomePage = () => {
                 <div className="team_img">
                   <img
                     className="img-fluid"
-                    src={passportPhoto}
+                    src="/images/team-images/ap-singh-sir.jpg"
                     alt=""
-                    style={{ width: "67%" }}
+                    style={{
+                      width: "67%",
+                      height: "210px",
+                      border: "2px solid black",
+                      borderRadius: "10%",
+                    }}
                   />
                 </div>
                 <div className="team_name">
                   <h4>Prof. A.P. Singh</h4>
                   <p>Faculty</p>
-                  <p className="mt-20">
-                    So seed seed green that winged cattle in kath moved us land years
-                    living.
-                  </p>
-                  <div className="social">
+                  <p className="mt-20"></p>
+                  {/* <div className="social">
                     <a href="#">
                       <i className="fa fa-facebook"></i>
                     </a>
@@ -206,7 +248,7 @@ const HomePage = () => {
                     <a href="#">
                       <i className="fa fa-envelope-o"></i>
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -216,19 +258,21 @@ const HomePage = () => {
                 <div className="team_img">
                   <img
                     className="img-fluid"
-                    src={passportPhoto}
+                    src="/images/team-images/manuj-sharma-sir.jpg"
                     alt=""
-                    style={{ width: "67%" }}
+                    style={{
+                      width: "67%",
+                      height: "210px",
+                      border: "2px solid black",
+                      borderRadius: "10%",
+                    }}
                   />
                 </div>
                 <div className="team_name">
                   <h4>Mr. Manuj Sharma</h4>
                   <p>Training and Placement Officer</p>
-                  <p className="mt-20">
-                    So seed seed green that winged cattle in kath moved us land years
-                    living.
-                  </p>
-                  <div className="social">
+                  <p className="mt-20"></p>
+                  {/* <div className="social">
                     <a href="#">
                       <i className="fa fa-facebook"></i>
                     </a>
@@ -241,7 +285,7 @@ const HomePage = () => {
                     <a href="#">
                       <i className="fa fa-envelope-o"></i>
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -251,19 +295,21 @@ const HomePage = () => {
                 <div className="team_img">
                   <img
                     className="img-fluid"
-                    src={passportPhoto}
+                    src="/images/team-images/mukesh-jadon-sir.jpg"
                     alt=""
-                    style={{ width: "67%" }}
+                    style={{
+                      width: "67%",
+                      height: "210px",
+                      border: "2px solid black",
+                      borderRadius: "10%",
+                    }}
                   />
                 </div>
                 <div className="team_name">
                   <h4>Mr. Mukesh Jadon</h4>
                   <p>Faculty</p>
-                  <p className="mt-20">
-                    So seed seed green that winged cattle in kath moved us land years
-                    living.
-                  </p>
-                  <div className="social">
+                  <p className="mt-20"></p>
+                  {/* <div className="social">
                     <a href="#">
                       <i className="fa fa-facebook" />
                     </a>
@@ -276,14 +322,44 @@ const HomePage = () => {
                     <a href="#">
                       <i className="fa fa-envelope-o" />
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <div
+        className="seperation-line"
+        style={{
+          width: "79.1vw",
+          height: "12px",
+          borderBottom: "2px solid #CCCCCC",
+          // marginLeft: "15vw",
+          // position: "relative",
+          // alignContent: "center",
+          // display: "flex",
+          // justifyContent: "center",
+          // margin: "auto",
+          margin: "37px auto",
+        }}
+      ></div>
       <Quotes />
+      <div
+        className="seperation-line"
+        style={{
+          width: "79.1vw",
+          height: "12px",
+          // borderBottom: "2px solid #CCCCCC",
+          // marginLeft: "15vw",
+          // position: "relative",
+          // alignContent: "center",
+          // display: "flex",
+          // justifyContent: "center",
+          // margin: "auto",
+          margin: "27px auto",
+        }}
+      ></div>
     </div>
   );
 };

@@ -56,6 +56,23 @@ const Footer = () => {
                     Youtube
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="https://3dcards.vercel.app/infocard/index2.html"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/b/be/Source_code_project_1171.svg"
+                      style={{
+                        marginRight: "10px",
+                        width: "25px",
+                        filter: "invert(90%)",
+                      }}
+                    />
+                    Developers
+                  </a>
+                </li>
                 {/* <li>
                   <a href="#">Light Speed Zone</a>
                 </li>

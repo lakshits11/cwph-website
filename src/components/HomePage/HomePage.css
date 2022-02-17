@@ -1,6 +1,6 @@
 /* Banner Style */
 .banner {
-  background-image: url("../../images/bannerHomepage.jpg");
+  background-image: url("/public/images/bannerHomepage.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 300px 0px;
@@ -339,9 +339,12 @@
   width: 100%;
   overflow: hidden;
   transition: all 0.5s;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10%;
 }
+
 .team-item .down-content {
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
   text-align: center;
   padding: 30px;
 }

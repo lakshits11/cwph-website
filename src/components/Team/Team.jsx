@@ -1,6 +1,5 @@
 // import React from "react";
 import { Tab, Tabs, Row, Col, Nav, Sonnet, Fade } from "react-bootstrap";
-import ourTeam from "../../images/our-team.jpg";
 import "./Team.css";
 
 const Team = () => {
@@ -32,7 +31,7 @@ const Team = () => {
           <div className="row">
             <div className="col-md-6">
               <div className="left-image">
-                <img src={ourTeam} alt="" />
+                <img src="images/team-images/cwph-team-photo.png" alt="" />
               </div>
             </div>
             <div className="col-md-6">
@@ -101,8 +100,8 @@ const Team = () => {
             <div className="col-md-3 col-sm-6 col-xs-12">
               <div className="team-item">
                 <img
-                  src="https://traditionalyoga.s3.us-west-2.amazonaws.com/wp-content/uploads/2020/08/10035151/pp-size.jpeg"
-                  style={{ width: "75%" }}
+                  src="/images/team-images/amit-neogi-sir.jpg"
+                  style={{ width: "75%", height: "210px" }}
                   alt=""
                 />
                 <div className="down-content">
@@ -114,8 +113,8 @@ const Team = () => {
             <div className="col-md-3 col-sm-6 col-xs-12">
               <div className="team-item">
                 <img
-                  src="https://traditionalyoga.s3.us-west-2.amazonaws.com/wp-content/uploads/2020/08/10035151/pp-size.jpeg"
-                  style={{ width: "75%" }}
+                  src="images/team-images/ap-singh-sir.jpg"
+                  style={{ width: "75%", height: "210px" }}
                   alt=""
                 />
                 <div className="down-content">
@@ -127,8 +126,8 @@ const Team = () => {
             <div className="col-md-3 col-sm-6 col-xs-12">
               <div className="team-item">
                 <img
-                  src="https://traditionalyoga.s3.us-west-2.amazonaws.com/wp-content/uploads/2020/08/10035151/pp-size.jpeg"
-                  style={{ width: "75%" }}
+                  src="/images/team-images/manuj-sharma-sir.jpg"
+                  style={{ width: "75%", height: "210px" }}
                   alt=""
                 />
                 <div className="down-content">
@@ -140,8 +139,8 @@ const Team = () => {
             <div className="col-md-3 col-sm-6 col-xs-12">
               <div className="team-item">
                 <img
-                  src="https://traditionalyoga.s3.us-west-2.amazonaws.com/wp-content/uploads/2020/08/10035151/pp-size.jpeg"
-                  style={{ width: "75%" }}
+                  src="/images/team-images/mukesh-jadon-sir.jpg"
+                  style={{ width: "75%", height: "210px" }}
                   alt=""
                 />
                 <div className="down-content">
@@ -153,8 +152,8 @@ const Team = () => {
             <div className="col-md-3 col-sm-6 col-xs-12">
               <div className="team-item">
                 <img
-                  src="https://traditionalyoga.s3.us-west-2.amazonaws.com/wp-content/uploads/2020/08/10035151/pp-size.jpeg"
-                  style={{ width: "75%" }}
+                  src="/images/team-images/anirudh-agarwal-sir.jpg"
+                  style={{ width: "75%", height: "210px" }}
                   alt=""
                 />
                 <div className="down-content">
@@ -166,8 +165,8 @@ const Team = () => {
             <div className="col-md-3 col-sm-6 col-xs-12">
               <div className="team-item">
                 <img
-                  src="https://traditionalyoga.s3.us-west-2.amazonaws.com/wp-content/uploads/2020/08/10035151/pp-size.jpeg"
-                  style={{ width: "75%" }}
+                  src="/images/team-images/vikram-sharma-sir.jpg"
+                  style={{ width: "75%", height: "210px" }}
                   alt=""
                 />
                 <div className="down-content">
@@ -179,8 +178,8 @@ const Team = () => {
             <div className="col-md-3 col-sm-6 col-xs-12">
               <div className="team-item">
                 <img
-                  src="https://traditionalyoga.s3.us-west-2.amazonaws.com/wp-content/uploads/2020/08/10035151/pp-size.jpeg"
-                  style={{ width: "75%" }}
+                  src="/images/team-images/shweta-bhandari-mam.jpg"
+                  style={{ width: "75%", height: "210px" }}
                   alt=""
                 />
                 <div className="down-content">
@@ -189,11 +188,11 @@ const Team = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-3 col-sm-6 col-xs-12">
+            {/* <div className="col-md-3 col-sm-6 col-xs-12">
               <div className="team-item">
                 <img
                   src="https://traditionalyoga.s3.us-west-2.amazonaws.com/wp-content/uploads/2020/08/10035151/pp-size.jpeg"
-                  style={{ width: "75%" }}
+                   style={{ width: "75%", height:"210px" }}
                   alt=""
                 />
                 <div className="down-content">
@@ -201,12 +200,12 @@ const Team = () => {
                   <span>Faculty</span>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="col-md-3 col-sm-6 col-xs-12">
               <div className="team-item">
                 <img
-                  src="https://traditionalyoga.s3.us-west-2.amazonaws.com/wp-content/uploads/2020/08/10035151/pp-size.jpeg"
-                  style={{ width: "75%" }}
+                  src="/images/team-images/nirmal-kumar-sir.jpg"
+                  style={{ width: "75%", height: "210px" }}
                   alt=""
                 />
                 <div className="down-content">
@@ -218,8 +217,8 @@ const Team = () => {
             <div className="col-md-3 col-sm-6 col-xs-12">
               <div className="team-item">
                 <img
-                  src="https://traditionalyoga.s3.us-west-2.amazonaws.com/wp-content/uploads/2020/08/10035151/pp-size.jpeg"
-                  style={{ width: "75%" }}
+                  src="/images/team-images/shweta-pandey-mam.jpg"
+                  style={{ width: "75%", height: "210px" }}
                   alt=""
                 />
                 <div className="down-content">
@@ -234,8 +233,8 @@ const Team = () => {
             <div className="col-md-3 col-sm-6 col-xs-12">
               <div className="team-item">
                 <img
-                  src="https://traditionalyoga.s3.us-west-2.amazonaws.com/wp-content/uploads/2020/08/10035151/pp-size.jpeg"
-                  style={{ width: "75%" }}
+                  src="/images/team-images/ruchir-sodhani-sir.jpg"
+                  style={{ width: "75%", height: "210px" }}
                   alt=""
                 />
                 <div className="down-content">
@@ -246,8 +245,8 @@ const Team = () => {
             <div className="col-md-3 col-sm-6 col-xs-12">
               <div className="team-item">
                 <img
-                  src="https://traditionalyoga.s3.us-west-2.amazonaws.com/wp-content/uploads/2020/08/10035151/pp-size.jpeg"
-                  style={{ width: "75%" }}
+                  src="/images/team-images/arshitaa-nair-mam.jpg"
+                  style={{ width: "75%", height: "210px" }}
                   alt=""
                 />
                 <div className="down-content">
@@ -256,13 +255,13 @@ const Team = () => {
               </div>
             </div>
             <div className="w-100 text-center mt-4 mb-4">
-              <h4>Co-ordinators</h4>
+              <h4>Past Co-ordinators</h4>
             </div>
             <div className="col-md-3 col-sm-6 col-xs-12">
               <div className="team-item">
                 <img
-                  src="https://traditionalyoga.s3.us-west-2.amazonaws.com/wp-content/uploads/2020/08/10035151/pp-size.jpeg"
-                  style={{ width: "75%" }}
+                  src="/images/team-images/abhimanyu-singh-mertiya.jpg"
+                  style={{ width: "75%", height: "210px" }}
                   alt=""
                 />
                 <div className="down-content">
@@ -273,8 +272,8 @@ const Team = () => {
             <div className="col-md-3 col-sm-6 col-xs-12">
               <div className="team-item">
                 <img
-                  src="https://traditionalyoga.s3.us-west-2.amazonaws.com/wp-content/uploads/2020/08/10035151/pp-size.jpeg"
-                  style={{ width: "75%" }}
+                  src="/images/team-images/saurav-kishore.jpg"
+                  style={{ width: "75%", height: "210px" }}
                   alt=""
                 />
                 <div className="down-content">
@@ -285,8 +284,8 @@ const Team = () => {
             <div className="col-md-3 col-sm-6 col-xs-12">
               <div className="team-item">
                 <img
-                  src="https://traditionalyoga.s3.us-west-2.amazonaws.com/wp-content/uploads/2020/08/10035151/pp-size.jpeg"
-                  style={{ width: "75%" }}
+                  src="/images/team-images/pranshul-garg.jpg"
+                  style={{ width: "75%", height: "210px" }}
                   alt=""
                 />
                 <div className="down-content">
