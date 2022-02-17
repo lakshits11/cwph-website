@@ -114,7 +114,7 @@ const Team = () => {
                     <div className="team-item">
                       <img
                         src={member.image}
-                        style={{ width: "75%" }}
+                        style={{ width: "60%" }}
                         alt=""
                       />
                       <div className="down-content">

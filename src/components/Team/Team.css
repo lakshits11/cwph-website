@@ -11,15 +11,35 @@
 }
 
 .down-content {
-  width: 75%;
+  width: 70%;
+}
+
+.down-content > h4{
+  font-size: 18px;
+}
+
+.down-content-student > ul{
+  margin-left: -15px;
+}
+
+.down-content > span{
+  font-size: 14px;
 }
 
 .down-content-student {
-  width: 100% !important;
+  width: 90% !important;
   background-color: #f7f7f7;
   border-radius: 10%;
-  height: 100% !important;
+  height: 200px !important;
 }
+
+@media screen and (max-width: 600px){
+  .down-content-student {
+    width: 70% !important;
+  }
+}
+
+
 
 .team-item {
   padding-left: 0 !important;
@@ -29,6 +49,9 @@
 }
 
 .team-item > img{
-  height: 300px;
+  height: 234px;
   object-fit:cover;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
 }
+
