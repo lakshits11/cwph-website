@@ -162,7 +162,7 @@ const HomePage = () => {
       ></div>
       {/* Head Team Section Starts -->  */}
       <section className="team_area section_gap" id="team_area">
-        <div className="container py-4">
+        <div className="container-fluid justify-content-center py-4">
           <div className="main_title text-center">
             <h2 style={{ fontWeight: "bold" }}>People You May Know</h2>
             <p
@@ -178,20 +178,14 @@ const HomePage = () => {
               Contact Details of our Counsellors, Faculty, Staff and Alumini
             </p>
           </div>
-          <div className="row team_inner pt-5">
-            <div className="col-lg-3 col-md-6">
+          <div className="row mx-auto team_inner pt-5">
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
               <div className="team_item">
                 <div className="team_img">
                   <img
-                    className="img-fluid"
+                    className="host-image"
                     src="/images/team-images/amit-neogi-sir.jpg"
                     alt=""
-                    style={{
-                      width: "67%",
-                      height: "210px",
-                      border: "2px solid black",
-                      borderRadius: "10%",
-                    }}
                   />
                 </div>
                 <div className="team_name">
@@ -216,19 +210,13 @@ const HomePage = () => {
               </div>
             </div>
 
-            <div className="col-lg-3 col-md-6">
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
               <div className="team_item">
                 <div className="team_img">
                   <img
-                    className="img-fluid"
+                    className="host-image"
                     src="/images/team-images/ap-singh-sir.jpg"
                     alt=""
-                    style={{
-                      width: "67%",
-                      height: "210px",
-                      border: "2px solid black",
-                      borderRadius: "10%",
-                    }}
                   />
                 </div>
                 <div className="team_name">
@@ -253,19 +241,13 @@ const HomePage = () => {
               </div>
             </div>
 
-            <div className="col-lg-3 col-md-6">
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
               <div className="team_item">
                 <div className="team_img">
                   <img
-                    className="img-fluid"
+                    className="host-image"
                     src="/images/team-images/manuj-sharma-sir.jpg"
                     alt=""
-                    style={{
-                      width: "67%",
-                      height: "210px",
-                      border: "2px solid black",
-                      borderRadius: "10%",
-                    }}
                   />
                 </div>
                 <div className="team_name">
@@ -290,19 +272,13 @@ const HomePage = () => {
               </div>
             </div>
 
-            <div className="col-lg-3 col-md-6">
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
               <div className="team_item">
                 <div className="team_img">
                   <img
-                    className="img-fluid"
+                    className="host-image"
                     src="/images/team-images/mukesh-jadon-sir.jpg"
                     alt=""
-                    style={{
-                      width: "67%",
-                      height: "210px",
-                      border: "2px solid black",
-                      borderRadius: "10%",
-                    }}
                   />
                 </div>
                 <div className="team_name">
