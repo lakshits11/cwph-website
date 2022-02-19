@@ -1,0 +1,131 @@
+/* About Us Page Style */
+.about-us {
+  padding: 90px 0px;
+  background-color: #f7f7f7;
+}
+.about-us .left-image {
+  margin-right: 30px;
+}
+.about-us .right-content {
+  /* margin-left: 30px; */
+}
+
+.about-us .left-image img {
+  /* max-width: 100%; */
+  overflow: hidden;
+  width: 100%;
+  margin-top: 15%;
+}
+
+.about-us .left-image p{
+    margin-top: 20%;
+    font-size: 15px;
+    align-items: center;
+}
+.about-us .section-heading h2 {
+  color: #1e1e1e;
+}
+.about-us .section-heading {
+  margin-bottom: 40px;
+  /* border-bottom: 3px solid #eee; */
+  /* padding-bottom: 40px; */
+}
+#tabs {
+  margin-right: 0px;
+}
+#tabs ul {
+  margin: 0;
+  padding: 0;
+}
+#tabs ul li {
+  margin-right: 40px;
+  display: inline-block;
+}
+#tabs ul li:last-child {
+  margin-right: 0px;
+}
+#tabs ul li a {
+  font-size: 18px;
+  color: #1e1e1e;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+#tabs ul .ui-tabs-active span {
+  background: #faf5b2;
+  border: #faf5b2;
+  line-height: 90px;
+  border-bottom: none;
+}
+#tabs ul .ui-tabs-active a {
+  color: #00bcd4;
+}
+#tabs ul .ui-tabs-active span {
+  color: #1e1e1e;
+}
+.tabs-content {
+  text-align: left;
+  display: inline-block;
+  transition: all 0.3s;
+}
+.tabs-content p {
+  font-size: 14px;
+  color: #7a7a7a;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.header-text {
+  background-image: url("/public/images/bannerHomepage.jpg");
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #495057;
+  background-color: #f7f7f7;
+  border-color: #dee2e6 #dee2e6 #fff;
+  outline: none;
+}
+
+.down-content {
+  width: 70%;
+}
+
+.down-content > h4 {
+  font-size: 18px;
+}
+
+.down-content-student > ul {
+  margin-left: -15px;
+}
+
+.down-content > span {
+  font-size: 14px;
+}
+
+.down-content-student {
+  width: 90% !important;
+  background-color: #f7f7f7;
+  border-radius: 10%;
+  height: 200px !important;
+}
+
+@media screen and (max-width: 600px) {
+  .down-content-student {
+    width: 70% !important;
+  }
+}
+
+.team-item {
+  padding-left: 0 !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-item > img {
+  height: 234px;
+  object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+}
