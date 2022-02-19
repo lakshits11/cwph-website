@@ -1,0 +1,84 @@
+.developers-page {
+  background-image: url("https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg");
+  /* background-image: url("/public/images/codingBackground.jpg"); */
+}
+
+.glowing-heading{
+  color: #fff;
+  /* animation: glow 1s ease-in-out infinite alternate; */
+  text-shadow:
+    /* White glow */
+    /* 0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff, */
+    /* Green glow */
+    /* 0 0 42px rgb(255, 131, 214),
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa; */
+}
+
+
+.belowImage{
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(130deg, #0df3ff, #ff5eef);
+  /* background: linear-gradient(130deg, #bc8fff, #ff6996); */
+  border-radius: 50%;
+  position: relative;
+  margin:auto;
+  cursor: default;
+}
+
+.actImage {
+  /* border-radius: 64px; */
+  border-radius: 50%;
+  width: 200px;
+  /* padding: 0px; */
+  /* height: 250px; */
+}
+
+.services-section .service-item h3 {
+  margin-top: 35px;
+  font-size: 26px;
+  color: #1e1e1e;
+  text-transform: capitalize;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-bottom: 30px;
+  cursor: default;
+}
+
+.services-section .service-item i {
+  color: #000000;
+  width: 2rem;
+  height: 2rem !important;
+  background: transparent;
+  font-size: 25px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.social {
+  transition: all 0.75s ease-out;
+}
+
+.social button {
+  padding: 0.5rem 2rem;
+  background: #ffffff;
+  border: none;
+  font-size: 16px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  outline: none;
+  color: #585858;
+  margin: 20px 20px 20px 20px;
+}
+
+* {
+  max-width: 99vw;
+}

@@ -112,12 +112,12 @@
   margin-bottom: 30px;
 }
 .services-section .service-item i {
-  color: #fff;
-  background-color: #00bcd4;
+  /* color: #fff; */
+  /* background-color: #00bcd4; */
   display: inline-block;
-  width: 100px;
-  height: 100px;
-  line-height: 100px;
+  /* width: 100px; */
+  /* height: 100px; */
+  /* line-height: 100px; */
   text-align: center;
   border-radius: 50%;
   font-size: 32px;

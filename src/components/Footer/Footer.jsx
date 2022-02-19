@@ -22,21 +22,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* <div className="col-md-3 col-sm-6 col-xs-12">
-                    <div className="footer-item">
-                        <div className="footer-heading">
-                            <h2>Hosting Plans</h2>
-                        </div>
-                        <ul className="footer-list">
-                            <li><a href="#">Basic Cloud 5X</a></li>
-                            <li><a href="#">Cloud VPS 10X</a></li>
-                            <li><a href="#">Advanced Cloud</a></li>
-                            <li><a href="#">Custom Designs</a></li>
-                            <li><a href="#">Special Solutions</a></li>
-                        </ul>
-                    </div>
-                </div> */}
-
           <div className="col-md-4 col-sm-6 col-xs-12">
             <div className="footer-item">
               <div className="footer-heading">
@@ -57,11 +42,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://3dcards.vercel.app/infocard/index2.html"
-                    rel="noreferrer"
-                    target="_blank"
-                  >
+                  <a href="/developers" rel="noreferrer">
                     <img
                       src="https://upload.wikimedia.org/wikipedia/commons/b/be/Source_code_project_1171.svg"
                       style={{
