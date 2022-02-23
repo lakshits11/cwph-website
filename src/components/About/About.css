@@ -8,6 +8,8 @@
 
 .image img{
   width: 100%;
+  box-shadow: 1px 9px 12px 0px #b3b1b1;
+  border-radius: 8px;
 }
 
 .text p{

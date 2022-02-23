@@ -39,9 +39,9 @@ function Developers() {
                 }}
               >
                 {/* <img className="actImage" src="https://i.imgur.com/1SOLO5J.png" /> */}
-                <div className="belowImage">
+                <div className="below-dev-image">
                   <img
-                    className="actImage"
+                    className="dev-image"
                     src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
                   />
                 </div>
@@ -82,9 +82,9 @@ function Developers() {
                   borderRadius: "50px",
                 }}
               >
-                <div className="belowImage">
+                <div className="below-dev-image">
                   <img
-                    className="actImage"
+                    className="dev-image"
                     src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
                   />
                 </div>

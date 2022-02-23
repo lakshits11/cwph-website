@@ -6,7 +6,7 @@
 .glowing-heading{
   color: #fff;
   /* animation: glow 1s ease-in-out infinite alternate; */
-  text-shadow:
+  /* text-shadow: */
     /* White glow */
     /* 0 0 7px #fff,
     0 0 10px #fff,
@@ -20,7 +20,7 @@
 }
 
 
-.belowImage{
+.below-dev-image{
   width: 200px;
   height: 200px;
   background: linear-gradient(130deg, #0df3ff, #ff5eef);
@@ -31,7 +31,7 @@
   cursor: default;
 }
 
-.actImage {
+.dev-image {
   /* border-radius: 64px; */
   border-radius: 50%;
   width: 200px;
