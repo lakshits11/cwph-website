@@ -3,31 +3,40 @@
   /* background-image: url("/public/images/codingBackground.jpg"); */
 }
 
-.glowing-heading{
+.glowing-heading {
   color: #fff;
   /* animation: glow 1s ease-in-out infinite alternate; */
   /* text-shadow: */
-    /* White glow */
-    /* 0 0 7px #fff,
+  /* White glow */
+  /* 0 0 7px #fff,
     0 0 10px #fff,
     0 0 21px #fff, */
-    /* Green glow */
-    /* 0 0 42px rgb(255, 131, 214),
+  /* Green glow */
+  /* 0 0 42px rgb(255, 131, 214),
     0 0 82px #0fa,
     0 0 92px #0fa,
     0 0 102px #0fa,
     0 0 151px #0fa; */
 }
 
+.card-item {
+  height: 450px;
+  background-color: white !important;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  padding: 30px 15px 0 15px !important;
+  text-align: center;
+  margin-bottom: 15vh;
+}
 
-.below-dev-image{
+.below-dev-image {
   width: 200px;
   height: 200px;
   background: linear-gradient(130deg, #0df3ff, #ff5eef);
   /* background: linear-gradient(130deg, #bc8fff, #ff6996); */
   border-radius: 50%;
   position: relative;
-  margin:auto;
+  margin: auto;
   cursor: default;
 }
 
@@ -35,11 +44,12 @@
   /* border-radius: 64px; */
   border-radius: 50%;
   width: 200px;
+  padding: 12px 12px 0;
   /* padding: 0px; */
   /* height: 250px; */
 }
 
-.services-section .service-item h3 {
+.services-section .card-item h3 {
   margin-top: 35px;
   font-size: 26px;
   color: #1e1e1e;
@@ -50,7 +60,7 @@
   cursor: default;
 }
 
-.services-section .service-item i {
+.services-section .card-item i {
   color: #000000;
   width: 2rem;
   height: 2rem !important;

@@ -63,6 +63,19 @@ export const teamList = [
     ],
   },
   {
+    designation: "Present Co-ordinators",
+    list: [
+      {
+        name: "Abhay Kumar Gupta",
+        image: "/images/team-images/abhimanyu-singh-mertiya.jpg",
+      },
+      {
+        name: "Mayank Gupta",
+        image: "/images/team-images/saurav-kishore.jpg",
+      },
+    ],
+  },
+  {
     designation: "Past Co-ordinators",
     list: [
       {

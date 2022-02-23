@@ -1,17 +1,17 @@
-.about-us{
+.about-us {
   padding: 90px 0;
 }
 
-.image{
+.image {
   width: 100%;
 }
 
-.image img{
+.image img {
   width: 100%;
   box-shadow: 1px 9px 12px 0px #b3b1b1;
   border-radius: 8px;
 }
 
-.text p{
+.text p {
   font-size: 15px;
 }

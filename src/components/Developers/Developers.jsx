@@ -30,7 +30,7 @@ function Developers() {
 
             <div className="col-lg-4 col-md-6 col-12">
               <div
-                className="service-item"
+                className="card-item"
                 style={{
                   padding: "0",
                   paddingTop: "30px",
@@ -74,7 +74,7 @@ function Developers() {
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <div
-                className="service-item"
+                className="card-item"
                 style={{
                   padding: "0",
                   paddingTop: "30px",

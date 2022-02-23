@@ -1,8 +1,7 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import { Tab, Tabs, Row, Col, Nav, Sonnet, Fade } from "react-bootstrap";
 import "./Team.css";
 import { teamList } from "./teamList";
-
 
 const Team = () => {
   const style = {
@@ -40,21 +39,27 @@ const Team = () => {
           <div className="row">
             <div className="col-md-6">
               <div className="left-image my-auto">
-                <img src="images/team-images/cwph-team-photo.png" alt="" className="w-100"/>
+                <img
+                  src="images/team-images/cwph-team-photo.png"
+                  alt=""
+                  className="w-100"
+                  style={{
+                    boxShadow: "1px 9px 12px 0 #b3b1b1",
+                    borderRadius: "10px",
+                  }}
+                />
               </div>
             </div>
             <div className="col-md-6 mt-md-0 mt-4">
               <div className="right-content">
                 <div className="section-heading">
-                  <span>About Us</span>
-                  <h2>Background of our company</h2>
+                  {/* <span>About Us</span> */}
+                  <h2>Meet the team.</h2>
                   <p>
-                    Duis sit amet nibh non sapien tincidunt bibendum. Curabitur
-                    rutrum justo id leo ornare, suscipit lobortis augue volutpat. Sed
-                    ligula arcu, interdum eu magna eget, tristique aliquet nibh.
+                    Hello, meet our team at CWPH. We are a group of some students who are interested in working on social causes and helping others.  
                   </p>
                 </div>
-                <Tabs
+                {/* <Tabs
                   defaultActiveKey="home"
                   transition={Fade}
                   className="mb-3"
@@ -80,7 +85,7 @@ const Team = () => {
                     developing a feeling of oneness for the human beings that will
                     help in living a happy and satisfied life.
                   </Tab>
-                </Tabs>
+                </Tabs> */}
               </div>
             </div>
           </div>
@@ -92,30 +97,28 @@ const Team = () => {
       <div className="team-section">
         <div className="container-fluid">
           <div className="row justify-content-center">
-            
             <div className="col-md-8">
               <div className="section-heading">
-                <span>Our Team</span>
+                {/* <span>Our Team</span> */}
                 <h2>Meet the greatest people</h2>
                 <p>
-                  Integer blandit, tellus varius vulputate cursus, purus orci
-                  tincidunt tortor, eget tincidunt elit justo non leo. Donec mollis
-                  nulla id est suscipit, ut laoreet nibh faucibus.
+                  Meet the members and co-ordinators of Center For Wellness and Positive Health.
                 </p>
               </div>
             </div>
             {teamList.map((team, i) => (
-              <div className="row justify-content-center" key={i} style={{width: '90%'}}>
+              <div
+                className="row justify-content-center"
+                key={i}
+                style={{ width: "90%" }}
+              >
                 <div className="w-100 text-center mb-4">
                   <h4>{team.designation}</h4>
                 </div>
                 {team.list.map((member, j) => (
                   <div className="col-md-4 col-sm-6 col-xs-12" key={j}>
                     <div className="team-item">
-                      <img
-                        src={member.image}
-                        alt=""
-                      />
+                      <img src={member.image} alt="" />
                       <div className="down-content">
                         <h4>{member.name}</h4>
                         <span>{member.responsibility}</span>
@@ -125,73 +128,73 @@ const Team = () => {
                 ))}
               </div>
             ))}
-            <div className="row justify-content-center" style={{width: '90%'}}>
-            <div className="w-100 text-center mt-4 mb-4">
-              <h4>Student Members</h4>
-            </div>
-            <div className="col-md-4 col-sm-6 col-xs-12">
-              <div className="team-item">
-                <div
-                  style={{ textAlign: "start" }}
-                  className="down-content down-content-student"
-                >
-                  <ul>
-                    <li>Kaustubh Nirwan</li>
-                    <li>Abhishek Kalra</li>
-                    <li>Pranshu Ananya</li>
-                    <li>Kartikay Johri</li>
-                    <li>Abhimanyu Singh</li>
-                  </ul>
+            <div className="row justify-content-center" style={{ width: "90%" }}>
+              <div className="w-100 text-center mt-4 mb-4">
+                <h4>Student Members</h4>
+              </div>
+              <div className="col-md-4 col-sm-6 col-xs-12">
+                <div className="team-item">
+                  <div
+                    style={{ textAlign: "start" }}
+                    className="down-content down-content-student"
+                  >
+                    <ul>
+                      <li>Kaustubh Nirwan</li>
+                      <li>Abhishek Kalra</li>
+                      <li>Pranshu Ananya</li>
+                      <li>Kartikay Johri</li>
+                      <li>Abhimanyu Singh</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="col-md-4 col-sm-6 col-xs-12">
-              <div className="team-item">
-                <div
-                  style={{ textAlign: "start" }}
-                  className="down-content down-content-student"
-                >
-                  <ul>
-                    <li>Aman Upadhyay</li>
-                    <li>Shivansh Baijal</li>
-                    <li>Ayush Agarwal</li>
-                    <li>Lokesh Kumar Israni</li>
-                    <li>Komal Kungwani</li>
-                  </ul>
+              <div className="col-md-4 col-sm-6 col-xs-12">
+                <div className="team-item">
+                  <div
+                    style={{ textAlign: "start" }}
+                    className="down-content down-content-student"
+                  >
+                    <ul>
+                      <li>Aman Upadhyay</li>
+                      <li>Shivansh Baijal</li>
+                      <li>Ayush Agarwal</li>
+                      <li>Lokesh Kumar Israni</li>
+                      <li>Komal Kungwani</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="col-md-4 col-sm-6 col-xs-12">
-              <div className="team-item">
-                <div
-                  style={{ textAlign: "start" }}
-                  className="down-content down-content-student"
-                >
-                  <ul>
-                    <li>Saurav Kishore</li>
-                    <li>Anshu Musaddi</li>
-                    <li>Harsh Mehta</li>
-                    <li>Naman Mathur</li>
-                    <li>Kheelan Kundalia</li>
-                  </ul>
+              <div className="col-md-4 col-sm-6 col-xs-12">
+                <div className="team-item">
+                  <div
+                    style={{ textAlign: "start" }}
+                    className="down-content down-content-student"
+                  >
+                    <ul>
+                      <li>Saurav Kishore</li>
+                      <li>Anshu Musaddi</li>
+                      <li>Harsh Mehta</li>
+                      <li>Naman Mathur</li>
+                      <li>Kheelan Kundalia</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="col-md-4 col-sm-6 col-xs-12">
-              <div className="team-item">
-                <div
-                  style={{ textAlign: "start" }}
-                  className="down-content down-content-student"
-                >
-                  <ul>
-                    <li>Aabha Sharma</li>
-                    <li>Sidhhant Umesh Sancheti</li>
-                    <li>Pranshul Garg</li>
-                    <li>Aishani Srivastava</li>
-                  </ul>
+              <div className="col-md-4 col-sm-6 col-xs-12">
+                <div className="team-item">
+                  <div
+                    style={{ textAlign: "start" }}
+                    className="down-content down-content-student"
+                  >
+                    <ul>
+                      <li>Aabha Sharma</li>
+                      <li>Sidhhant Umesh Sancheti</li>
+                      <li>Pranshul Garg</li>
+                      <li>Aishani Srivastava</li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-            </div>
             </div>
           </div>
         </div>

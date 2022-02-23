@@ -1,5 +1,6 @@
 .header-text {
-  background-image: url("/public/images/bannerHomepage.jpg");
+  /* background-image: url("/public/images/team-images/cwph-team-photo.png"); */
+  background-image: url("/public/images/team-bg.png");
 }
 
 .nav-tabs .nav-item.show .nav-link,
@@ -62,7 +63,7 @@
 
 @media screen and (min-width: 1200px) {
   .team-item > img{
-    width: 50%;
+    width: 43%;
   }
 
   .down-content-student {
