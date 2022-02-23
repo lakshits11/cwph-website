@@ -67,11 +67,11 @@ export const teamList = [
     list: [
       {
         name: "Abhay Kumar Gupta",
-        image: "/images/team-images/abhimanyu-singh-mertiya.jpg",
+        image: "/images/team-images/Abhay.jpg",
       },
       {
         name: "Mayank Gupta",
-        image: "/images/team-images/saurav-kishore.jpg",
+        image: "/images/team-images/Mayank.jpg",
       },
     ],
   },

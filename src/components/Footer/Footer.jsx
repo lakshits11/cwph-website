@@ -35,8 +35,9 @@ const Footer = () => {
                     target="_blank"
                   >
                     <img
-                      src="https://img.icons8.com/color/25/000000/youtube-play.png"
-                      style={{ marginRight: "10px" }}
+                      src="/images/youtube.svg"
+                      // src="https://img.icons8.com/color/25/000000/youtube-play.png"
+                      style={{ marginRight: "10px",width: "25px" }}
                     />
                     Youtube
                   </a>
