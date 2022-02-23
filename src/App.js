@@ -8,6 +8,7 @@ import Footer from "./components/Footer/Footer";
 import ContactUs from "./components/ContactUs/ContactUs";
 import About from "./components/About/About";
 import Developers from "./components/Developers/Developers";
+import ActivityDetails from './components/Activity-Details/ActivityDetails'
 
 function App() {
   return (
@@ -33,6 +34,9 @@ function App() {
             </Route>
             <Route exact path="/developers">
               <Developers/>
+            </Route>
+            <Route exact path="/activities/:id">
+              <ActivityDetails />
             </Route>
           </Switch>
         </Router>

@@ -100,7 +100,8 @@
 }
 #map {
   height: 520px !important;
-  margin-bottom: 0px !important;
+  margin-top: 140px;
+  margin-bottom: -30px;
 }
 
 /* Responsive Style */
@@ -123,11 +124,6 @@
   }
 }
 @media (max-width: 991px) {
-  .about-us .left-image {
-    margin-bottom: 30px;
-    margin-right: 0px;
-  }
-  .about-us .right-content,
   .contact-us .right-content {
     margin-left: 0px;
   }

@@ -10,6 +10,10 @@
   outline: none;
 }
 
+.about-us{
+  background-color: #f7f7f7;
+}
+
 .down-content {
   width: 70%;
 }
@@ -53,5 +57,18 @@
   object-fit:cover;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border: none;
+  width: 60%;
 }
 
+@media screen and (min-width: 1200px) {
+  .team-item > img{
+    width: 50%;
+  }
+
+  .down-content-student {
+    width: 70% !important;
+    background-color: #f7f7f7;
+    border-radius: 10%;
+    height: 200px !important;
+  }
+}

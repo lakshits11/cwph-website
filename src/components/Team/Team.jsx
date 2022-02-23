@@ -39,11 +39,11 @@ const Team = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-6">
-              <div className="left-image">
-                <img src="images/team-images/cwph-team-photo.png" alt="" />
+              <div className="left-image my-auto">
+                <img src="images/team-images/cwph-team-photo.png" alt="" className="w-100"/>
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 mt-md-0 mt-4">
               <div className="right-content">
                 <div className="section-heading">
                   <span>About Us</span>
@@ -110,11 +110,10 @@ const Team = () => {
                   <h4>{team.designation}</h4>
                 </div>
                 {team.list.map((member, j) => (
-                  <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12" key={j}>
+                  <div className="col-md-4 col-sm-6 col-xs-12" key={j}>
                     <div className="team-item">
                       <img
                         src={member.image}
-                        style={{ width: "60%" }}
                         alt=""
                       />
                       <div className="down-content">
@@ -130,7 +129,7 @@ const Team = () => {
             <div className="w-100 text-center mt-4 mb-4">
               <h4>Student Members</h4>
             </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div className="col-md-4 col-sm-6 col-xs-12">
               <div className="team-item">
                 <div
                   style={{ textAlign: "start" }}
@@ -146,7 +145,7 @@ const Team = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div className="col-md-4 col-sm-6 col-xs-12">
               <div className="team-item">
                 <div
                   style={{ textAlign: "start" }}
@@ -162,7 +161,7 @@ const Team = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div className="col-md-4 col-sm-6 col-xs-12">
               <div className="team-item">
                 <div
                   style={{ textAlign: "start" }}
@@ -178,7 +177,7 @@ const Team = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div className="col-md-4 col-sm-6 col-xs-12">
               <div className="team-item">
                 <div
                   style={{ textAlign: "start" }}
