@@ -42,30 +42,30 @@ function Developers() {
                 <div className="below-dev-image">
                   <img
                     className="dev-image"
-                    src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                    src="/images/lakshit-somani.png"
                   />
                 </div>
                 <h3 style={{ fontWeight: "bold" }}>LAKSHIT SOMANI</h3>
                 <p className="activitiesPara"></p>
                 <div className="social">
                   <button>
-                    <a href="https://www.linkedin.com/" target="none">
+                    <a href="https://www.linkedin.com/in/lakshit-somani/" target="none">
                       <i className="fa fa-linkedin"></i>
                     </a>
                   </button>
                   <button>
-                    <a href="https://www.github.com/" target="none">
+                    <a href="https://www.github.com/lakshits11" target="none">
                       <i className="fa fa-github"></i>
                     </a>
                   </button>
                   <br />
                   <button>
-                    <a href="https://www.twitter.com/" target="none">
-                      <i className="fa fa-twitter"></i>
+                    <a href="mailto:lakshits11@gmail.com" target="none">
+                      <i className="fa fa-envelope"></i>
                     </a>
                   </button>
                   <button>
-                    <a href="https://www.instagram.com/" target="none">
+                    <a href="https://www.instagram.com/_.pixelated/" target="none">
                       <i className="fa fa-instagram"></i>
                     </a>
                   </button>
@@ -103,8 +103,8 @@ function Developers() {
                   </button>
                   <br />
                   <button>
-                    <a href="https://www.twitter.com/" target="none">
-                      <i className="fa fa-twitter"></i>
+                    <a href="mailto:" target="none">
+                      <i className="fa fa-envelope"></i>
                     </a>
                   </button>
                   <button>
