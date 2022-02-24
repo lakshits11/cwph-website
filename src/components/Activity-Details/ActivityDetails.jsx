@@ -1,10 +1,12 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import "./ActivityDetails.css";
 
 function ActivityDetails() {
   const event = useLocation();
-  const event_details = event.state.state;
+
+  const [event_details, set_event_details] = useState({})
+  // const event_details = event.state.state;
   const style = {
     color: "#000",
   };
@@ -14,6 +16,7 @@ function ActivityDetails() {
 
   useEffect(() => {
     window.scrollTo(0, 0);
+    set_event_details(event.state.state);
   }, [event]);
   return (
     <div>

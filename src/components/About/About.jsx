@@ -213,6 +213,62 @@ const About = () => {
                 />
               </div>
             </div>
+            <div className="col-md-6 d-flex order-11 mt-5">
+              <div className="image m-auto">
+                <img
+                  src="/images/future_plan.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div className="col-md-6 order-12 mt-5">
+              <div className="text">
+                <h2 style={style2}>Our Future Plan</h2>
+                <br />
+                <p>
+                  <ul>
+                    <li className="about-list-item">
+                      Organizing more workshops on meditation as well as on balancing mind, body and spirit to bring an all 
+                      round holistic development of an individual.
+                    </li>
+                    <li className="about-list-item">
+                      Organize competitions like Healthy Food competition in 
+                      LNMIIT community and outside.
+                    </li>
+                    <li className="about-list-item">
+                      Inspire student clubs to organize functions and competitions 
+                      of social importance.
+                    </li>
+                    <li className="about-list-item">
+                      Start some healthy shops of juices and nutritious foods 
+                      in the campus.
+                    </li>
+                    <li className="about-list-item">
+                      Start some medical service activities in nearby villages.
+                    </li>
+                    <li className="about-list-item">
+                      Device some techniques to help street dwellers in severe winter.
+                    </li>
+                    <li className="about-list-item">
+                      Start some useful courses from CWPH which will help our students 
+                      develop healthy body and sound mind
+                    </li>
+                    <li className="about-list-item">
+                      Engage students in more societal work so that moral values are 
+                      inculcated into their character.
+                    </li>
+                    <li className="about-list-item">
+                    Construction of a Physical building for Center for Wellness and 
+                    Positive Health: It will have a well ventilated room for meditation, 
+                    a small seminar room for discussion as well as for online viewing 
+                    of YouTube videos along with a small library which will contain 
+                    good books to elevate the mind and spirit of an individual.
+                    </li>
+                  </ul>
+                  <br />
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
