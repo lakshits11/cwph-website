@@ -97,13 +97,11 @@ const ContactUs = () => {
                   <span>Contact Us</span>
                   <h2>Let's keep in touch</h2>
                   <p>
-                    Quisque sagittis blandit sapien et elementum. Fusce pretium
-                    viverra consequat. Aliquam at feugiat mi. Pellentesque hendrerit,
-                    felis ac sodales commodo.
+                   Here are our contact email and website.
                   </p>
                 </div>
                 <div className="row">
-                  <div className="col-md-6 col-sm-12">
+                  {/* <div className="col-md-6 col-sm-12">
                     <ul>
                       <li>
                         <i className="fa fa-phone"></i> 010-020-0560
@@ -112,14 +110,14 @@ const ContactUs = () => {
                         <i className="fa fa-support"></i> support@company.com
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                   <div className="col-md-6 col-sm-12">
                     <ul>
                       <li>
-                        <i className="fa fa-envelope"></i> contact@company.com
+                        <i className="fa fa-envelope"></i> cl.cwph@lnmiit.ac.in
                       </li>
                       <li>
-                        <i className="fa fa-globe"></i> www.company.com
+                        <i className="fa fa-globe"></i> cwph-lnmiit.vercel.app
                       </li>
                     </ul>
                   </div>

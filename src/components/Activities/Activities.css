@@ -1,4 +1,4 @@
-.header-text{
+.header-text {
   /* background-image: url("https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80") !important; */
 }
 
@@ -7,14 +7,14 @@
 }
 
 .service-item {
-  height: 450px;
+  height: 350px;
   background-color: white !important;
   cursor: pointer;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
   padding: 15px 15px 0 15px !important;
 }
 
-.act-image{
+.act-image {
   width: 100%;
   border-radius: 17px !important;
   object-fit: cover !important;
@@ -33,4 +33,34 @@
   padding: 8px 10px;
   background-color: #e4e4e4;
   outline: none !important;
+}
+
+p > ul > li {
+  margin-bottom: 30px;
+}
+
+p > ul > li > h5 {
+  color: black;
+}
+
+.seminar-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.seminar-images {
+  width: 30vw;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .seminar-images {
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .seminar-div {
+    display: flex;
+    flex-direction: column;
+  }
 }

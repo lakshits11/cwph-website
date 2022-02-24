@@ -37,7 +37,7 @@ const Footer = () => {
                     <img
                       src="/images/youtube.svg"
                       // src="https://img.icons8.com/color/25/000000/youtube-play.png"
-                      style={{ marginRight: "10px",width: "25px" }}
+                      style={{ marginRight: "10px", width: "25px" }}
                     />
                     Youtube
                   </a>
@@ -78,13 +78,14 @@ const Footer = () => {
               </div>
               <ul className="footer-list">
                 <li>
-                  Email: <a href="#">cl.cwph@lnmiit.ac.in</a>
+                  Email:{" "}
+                  <a href="mailto:cl.cwph@lnmiit.ac.in">cl.cwph@lnmiit.ac.in</a>
                 </li>
-                <li>
+                {/* <li>
                   Support: <a href="#">support@company.com</a>
-                </li>
+                </li> */}
                 <li>
-                  Website: <a href="#">www.company.com</a>
+                  Website: <a href="/">cwph-lnmiit.vercel.app</a>
                 </li>
               </ul>
             </div>

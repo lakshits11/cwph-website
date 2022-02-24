@@ -15,3 +15,7 @@
 .text p {
   font-size: 15px;
 }
+
+.about-list-item {
+  margin-bottom: 0px;
+}

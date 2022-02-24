@@ -111,7 +111,7 @@ const About = () => {
             </div>
             <div className="col-md-6 d-flex order-md-7 order-8 mt-5">
               <div className="image m-auto">
-                <img src="/images/team-images/cwph_logo.jpg" alt="" />
+                <img src="/images/cwph-logo.jpg" alt="" />
               </div>
             </div>
             <div className="col-md-6 order-md-8 order-7 mt-5">
@@ -142,20 +142,22 @@ const About = () => {
             <div className="col-md-6 order-9 mt-5">
               <div className="text">
                 <h2 style={style2}>Objectives</h2>
-                <br/>
+                <br />
                 <p>
                   <h5 style={style2}>1. Develop Healthy Body</h5>
                   <ul>
-                    <li>Be highly energetic and enthusiastic for any task.</li>
-                    <li>
+                    <li className="about-list-item">
+                      Be highly energetic and enthusiastic for any task.
+                    </li>
+                    <li className="about-list-item">
                       Understand the role of proper nutrition in maintaining good
                       health.
                     </li>
-                    <li>
+                    <li className="about-list-item">
                       Understand the role of physical exercise, yoga, and other
                       techniques in maintaining good health.
                     </li>
-                    <li>
+                    <li className="about-list-item">
                       Beware of the serious detrimental effects of smoking, drinking
                       alcoholand other banned substances.{" "}
                     </li>
@@ -163,33 +165,39 @@ const About = () => {
                   <br />
                   <h5 style={style2}>2. Develop Sound Mind</h5>
                   <ul>
-                    <li>
+                    <li className="about-list-item">
                       Develop strong mind and will power to undertake any challenge.
                     </li>
-                    <li>
+                    <li className="about-list-item">
                       Develop right attitude to face difficulties and failures in
                       life.
                     </li>
-                    <li>
+                    <li className="about-list-item">
                       Develop good concentration, memory, and mental activity in
                       students.
                     </li>
-                    <li>Be Happy, contented, and cheerful in every situation. </li>
+                    <li className="about-list-item">
+                      Be Happy, contented, and cheerful in every situation.{" "}
+                    </li>
                   </ul>
                   <br />
                   <h5 style={style2}>3. Infuse Moral Values</h5>
                   <ul>
-                    <li>Be honest with our own self.</li>
-                    <li>Be responsible and sincere in performing one’s duty.</li>
-                    <li>Develop respect for others and their opinions.</li>
-                    <li>
+                    <li className="about-list-item">Be honest with our own self.</li>
+                    <li className="about-list-item">
+                      Be responsible and sincere in performing one’s duty.
+                    </li>
+                    <li className="about-list-item">
+                      Develop respect for others and their opinions.
+                    </li>
+                    <li className="about-list-item">
                       Develop patience, perseverance, humility and unselfishness.{" "}
                     </li>
                   </ul>
                   <br />
                   <h5 style={style2}>4. Do Good to others</h5>
                   <ul>
-                    <li>
+                    <li className="about-list-item">
                       Serve the society/needy and take part in philanthropic
                       activities whenever possible.
                     </li>
