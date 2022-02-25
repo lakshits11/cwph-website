@@ -1,5 +1,4 @@
-.header-text {
-  /* background-image: url("/public/images/team-images/cwph-team-photo.png"); */
+.team-image {
   background-image: url("/public/images/team-bg.png");
 }
 
@@ -31,21 +30,6 @@
   font-size: 14px;
 }
 
-.down-content-student {
-  width: 90% !important;
-  background-color: #f7f7f7;
-  border-radius: 10%;
-  height: 200px !important;
-}
-
-@media screen and (max-width: 600px){
-  .down-content-student {
-    width: 70% !important;
-  }
-}
-
-
-
 .team-item {
   padding-left: 0 !important;
   display: flex;
@@ -58,18 +42,50 @@
   object-fit:cover;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border: none;
-  width: 60%;
+  width: 70%;
 }
 
 @media screen and (min-width: 1200px) {
-  .team-item > img{
-    width: 43%;
-  }
 
   .down-content-student {
     width: 70% !important;
     background-color: #f7f7f7;
     border-radius: 10%;
     height: 200px !important;
+  }
+}
+
+.student-list{
+  margin-bottom: 25px;
+}
+
+.student-list li{
+  font-size: 20px;
+  display: inline-flex;
+  padding: 10px;
+  width: 33%;
+  justify-content: center;
+  color: #6a6a6a;
+  margin-left: -5px;
+  transition: 0.2s;
+  margin-bottom: 5px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+}
+.student-list li:hover{
+  color: black;
+  transform: translateY(-5px);
+  font-size: 22px;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.35);
+}
+@media screen and (max-width: 768px) {
+  .student-list li{
+    width: 50%;
+    margin-left: -15px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .student-list li{
+    width: 100%;
+    margin-left: -22.5px;
   }
 }

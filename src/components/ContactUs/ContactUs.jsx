@@ -9,8 +9,8 @@ const ContactUs = () => {
   };
   return (
     <div>
-      <Header />
-      <div className="page-heading header-text">
+      {/* <Header /> */}
+      <div className="page-heading header-text contact-image">
         <div className="container">
           <div className="row">
             <div className="col-md-12">

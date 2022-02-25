@@ -1,22 +1,15 @@
-import React, { useState, useEffect } from "react";
-import { Tab, Tabs, Row, Col, Nav, Sonnet, Fade } from "react-bootstrap";
+import React from "react";
 import "./Team.css";
-import { teamList } from "./teamList";
+import { teamList, studentList } from "./teamList";
 
 const Team = () => {
   const style = {
     color: "#000",
   };
 
-  // const [team_list, set_team_list] = useState()
-
-  // useEffect(() => {
-  //   set_team_list(teamList)
-  // })
-
   return (
     <div>
-      <div className="page-heading header-text">
+      <div className="page-heading header-text team-image">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
@@ -56,7 +49,15 @@ const Team = () => {
                   {/* <span>About Us</span> */}
                   <h2>Meet the team.</h2>
                   <p>
-                    Hello, meet our team at CWPH. We are a group of some students who are interested in working on social causes and helping others.  
+                    Hello, meet our team at CWPH. We are a group of some 
+                    students who are interested in working on social causes 
+                    and helping others. The members of this center always 
+                    strive to bring positivity in the lives of the people 
+                    by various means like yoga, meditation, informal chats, 
+                    and many others. The center tries to make students feel 
+                    as comfortable in the institute as they were at their 
+                    parents’ place by creating an atmosphere of happiness 
+                    and friendliness throughout the institute. 
                   </p>
                 </div>
                 {/* <Tabs
@@ -116,7 +117,7 @@ const Team = () => {
                   <h4>{team.designation}</h4>
                 </div>
                 {team.list.map((member, j) => (
-                  <div className="col-md-4 col-sm-6 col-xs-12" key={j}>
+                  <div className="col-lg-3 col-md-4 col-sm-6 col-xs-12" key={j}>
                     <div className="team-item">
                       <img src={member.image} alt="" />
                       <div className="down-content">
@@ -128,74 +129,21 @@ const Team = () => {
                 ))}
               </div>
             ))}
-            <div className="row justify-content-center" style={{ width: "90%" }}>
-              <div className="w-100 text-center mt-4 mb-4">
-                <h4>Student Members</h4>
-              </div>
-              <div className="col-md-4 col-sm-6 col-xs-12">
-                <div className="team-item">
-                  <div
-                    style={{ textAlign: "start" }}
-                    className="down-content down-content-student"
-                  >
-                    <ul>
-                      <li>Kaustubh Nirwan</li>
-                      <li>Abhishek Kalra</li>
-                      <li>Pranshu Ananya</li>
-                      <li>Kartikay Johri</li>
-                      <li>Abhimanyu Singh</li>
-                    </ul>
-                  </div>
+            {studentList.map((list,i) => (
+              <div className="row justify-content-center" style={{ width: "90%" }} key={i}>
+                <div className="w-100 text-center mt-4 mb-4">
+                  <h4>{list.designation}</h4>
                 </div>
-              </div>
-              <div className="col-md-4 col-sm-6 col-xs-12">
-                <div className="team-item">
-                  <div
-                    style={{ textAlign: "start" }}
-                    className="down-content down-content-student"
-                  >
-                    <ul>
-                      <li>Aman Upadhyay</li>
-                      <li>Shivansh Baijal</li>
-                      <li>Ayush Agarwal</li>
-                      <li>Lokesh Kumar Israni</li>
-                      <li>Komal Kungwani</li>
-                    </ul>
-                  </div>
+                <div className="col-12 student-list">
+                  <ul>
+                    {list.name_list.map((student,j) => (
+                      <li key={j}>{student.name}</li>
+                    ))}
+                  </ul>
                 </div>
+                
               </div>
-              <div className="col-md-4 col-sm-6 col-xs-12">
-                <div className="team-item">
-                  <div
-                    style={{ textAlign: "start" }}
-                    className="down-content down-content-student"
-                  >
-                    <ul>
-                      <li>Saurav Kishore</li>
-                      <li>Anshu Musaddi</li>
-                      <li>Harsh Mehta</li>
-                      <li>Naman Mathur</li>
-                      <li>Kheelan Kundalia</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4 col-sm-6 col-xs-12">
-                <div className="team-item">
-                  <div
-                    style={{ textAlign: "start" }}
-                    className="down-content down-content-student"
-                  >
-                    <ul>
-                      <li>Aabha Sharma</li>
-                      <li>Sidhhant Umesh Sancheti</li>
-                      <li>Pranshul Garg</li>
-                      <li>Aishani Srivastava</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </div>

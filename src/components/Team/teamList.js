@@ -47,15 +47,16 @@ export const teamList = [
         responsibility: "Faculty",
         image: "/images/team-images/shweta-pandey-mam.jpg",
       },
+      {
+        name: "Dr. Kanjalochan Jena",
+        responsibility: "Faculty",
+        image: '/images/team-images/kanjalochan-jena-sir.jpg'
+      }
     ],
   },
   {
     designation: "Counsellors",
     list: [
-      {
-        name: "Mr. Ruchir Sodhani",
-        image: "/images/team-images/ruchir-sodhani-sir.jpg",
-      },
       {
         name: "Mrs. Arshitaa Nair",
         image: "/images/team-images/arshitaa-nair-mam.jpg",
@@ -93,3 +94,88 @@ export const teamList = [
     ],
   },
 ];
+
+export const studentList = [
+  {
+    designation: "Student Members",
+    name_list: [
+      {
+        name: "Aashi Bansal",
+      },
+      {
+        name: "Aman Agarwal",
+      },
+      {
+        name: "Atharva Toshniwal",
+      },
+      {
+        name: "Janmejay Rathod",
+      },
+      {
+        name: "Subrat Gupta",
+      }
+    ]
+  },
+  {
+    designation: "Alumni",
+    name_list: [
+      {
+        name: "Kaustubh Nirwan",
+      },
+      {
+        name: "Abhishek Kalra",
+      },
+      {
+        name: "Pranshu Ananya",
+      },
+      {
+        name: "Kartikay Johri",
+      },
+      {
+        name: "Abhimanyu Singh",
+      },
+      {
+        name: "Aman Upadhyay",
+      },
+      {
+        name: "Shivansh Baijal",
+      },
+      {
+        name: "Ayush Agarwal"
+      },
+      {
+        name: "Lokesh Kumar Israni",
+      },
+      {
+        name: "Komal Kungwani",
+      },
+      {
+        name: "Saurav Kishore",
+      },
+      {
+        name: "Anshu Musaddi",
+      },
+      {
+        name: "Harsh Mehta",
+      },
+      {
+        name: "Naman Mathur",
+      },
+      {
+        name: "Kheelan Kundalia",
+      },
+      {
+        name: "Aabha Sharma",
+      },
+      {
+        name: "Sidhhant Umesh Sancheti",
+      },
+      {
+        name: "Pranshul Garg",
+      },
+      {
+        name: "Aishani Srivastava",
+      },
+    ]
+  }
+]

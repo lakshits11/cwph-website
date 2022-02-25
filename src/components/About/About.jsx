@@ -10,7 +10,7 @@ const About = () => {
   };
   return (
     <div>
-      <div className="page-heading header-text">
+      <div className="page-heading header-text about-image">
         <div className="container">
           <div className="row">
             <div className="col-md-12">

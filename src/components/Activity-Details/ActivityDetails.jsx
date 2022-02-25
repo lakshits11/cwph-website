@@ -20,7 +20,7 @@ function ActivityDetails() {
   }, [event]);
   return (
     <div>
-      <div className="page-heading header-text">
+      <div className="page-heading header-text details-image">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
@@ -47,7 +47,7 @@ function ActivityDetails() {
                 <img src={event_details.image} alt="" />
               </div>
             </div>
-            <div className="col-md-6 col-12">
+            <div className="col-md-6 col-12 mt-md-0 mt-4">
               <div className="event-title">
                 <span style={{color:"#00bcd4"}}>Event Details</span>
                 <h2 style={style2}>{event_details.title}</h2>
