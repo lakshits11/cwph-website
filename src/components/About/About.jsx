@@ -213,7 +213,7 @@ const About = () => {
                 />
               </div>
             </div>
-            <div className="col-md-6 d-flex order-11 mt-5">
+            <div className="col-md-6 d-flex order-md-11 order-12 mt-5">
               <div className="image m-auto">
                 <img
                   src="/images/future_plan.svg"
@@ -221,7 +221,7 @@ const About = () => {
                 />
               </div>
             </div>
-            <div className="col-md-6 order-12 mt-5">
+            <div className="col-md-6 order-md-12 order-11  mt-5">
               <div className="text">
                 <h2 style={style2}>Our Future Plan</h2>
                 <br />
