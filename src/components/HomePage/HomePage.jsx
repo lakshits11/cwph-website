@@ -68,7 +68,7 @@ const HomePage = () => {
         }}
       ></div>
       <WellnessCards />
-      <div className="features-section">
+      {/* <div className="features-section">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
@@ -143,9 +143,9 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div
+      {/* <div
         className="seperation-line"
         style={{
           width: "79.1vw",
@@ -159,7 +159,7 @@ const HomePage = () => {
           // margin: "auto",
           margin: "37px auto",
         }}
-      ></div>
+      ></div> */}
       {/* Head Team Section Starts -->  */}
       <section className="team_area section_gap" id="team_area">
         <div className="container-fluid justify-content-center py-4">

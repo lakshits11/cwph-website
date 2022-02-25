@@ -274,7 +274,7 @@ function Activities() {
             <p style={{ textAlign: "left", width: "100vw" }}>
               <ul>
                 <li>
-                  <h5>Cloth Collectionn and and Distribution</h5>
+                  <h5>Cloth Collection and and Distribution</h5>
                   <p>
                     Clothes were collected and distributed to poor and needy by
                     members of CWPH.
