@@ -33,7 +33,9 @@ const Team = () => {
             <div className="col-md-6">
               <div className="left-image my-auto">
                 <img
-                  src="images/team-images/cwph-team-photo.png"
+                  // src="https://resizer.in/tmp/[Resizer.in]-621a530a3d0fc.com"
+                  src="/images/stock-team-image.jpg"
+                  // src="images/team-images/cwph-team-photo.png"
                   alt=""
                   className="w-100"
                   style={{
@@ -56,7 +58,7 @@ const Team = () => {
                     by various means like yoga, meditation, informal chats, 
                     and many others. The center tries to make students feel 
                     as comfortable in the institute as they were at their 
-                    parents’ place by creating an atmosphere of happiness 
+                    parent&apos;s place by creating an atmosphere of happiness 
                     and friendliness throughout the institute. 
                   </p>
                 </div>
