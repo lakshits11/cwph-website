@@ -61,6 +61,16 @@ const third_party_events = [
   },
   {
     id: "charity-work",
+    title: "Yoga Modules by AICTE",
+    image: '/images/yoga-modules.png',
+    text: "Yoga Modules held by AICTE on April 30, 2020",
+    details: "Dr. H R Nagendra, Hon'ble Chancellor, SVYASA Yoga University, Bengaluru and Padmasri Awardee 2016 and Dr R Nagarathna, Medical Director, SVYASA Yoga University, has developed Yoga modules in the form of Videos which can be practised twice a day was forwarded to everyone."
+  }
+];
+
+const cwph_events = [
+  {
+    id: "charity-work",
     title: "Call Of Time",
     image: "/images/call-of-time.png",
     text: `Call of time -Emerging the new self by CWPH on 12 August, 2021`,
@@ -73,7 +83,7 @@ const third_party_events = [
     text: `Two day workshop on Acupressure (Sujok therapy) on 12 and 13 November`,
     details: `A Sujok therapy expert, Mr Ramen Mukherjee from Jaipur aged 78 years came to LNMIIT campus to guide patients as well as teach basics of sujok therapy. It is very easy technique that helps to relieve pain, anxiety ,respirational trouble and other ailments just by pressing the points in hands and feet. More than eighty patients from faculty, staff, and students as well as their family members took the benefit of his presence on these two days for relieving their ailments.`,
   },
-];
+]
 
 function Activities() {
   const style = {
@@ -159,9 +169,9 @@ function Activities() {
               </div>
             ))}
             <div className="col-md-12" style={{ marginTop: "10px" }}>
-              <h3 style={style2}>3rd Party Events</h3>
+              <h3 style={style2}>CWPH Events</h3>
             </div>
-            {third_party_events.map((event, i) => (
+            {cwph_events.map((event, i) => (
               <div className="col-lg-4 col-md-6 col-12" key={i}>
                 <div
                   className="service-item"
@@ -181,59 +191,9 @@ function Activities() {
                 </div>
               </div>
             ))}
-            <div className="col-md-12" style={{ marginTop: "10px" }}></div>
             <p style={{ textAlign: "left" }}>
               <ul>
-                <li>
-                  <h5>Yoga Modules by AICTE on April 30, 2020</h5>
-                  <p>
-                    Dr. H R Nagendra, Hon'ble Chancellor, SVYASA Yoga University,
-                    Bengaluru and Padmasri Awardee 2016 and Dr R Nagarathna, Medical
-                    Director, SVYASA Yoga University, has developed Yoga modules in
-                    the form of Videos which can be practised twice a day was
-                    forwarded to everyone.
-                  </p>
-                </li>
-                <li>
-                  <h5>MANODARPAN by MHRD on July 20, 2020</h5>
-                  <p>
-                    An initiative by MHRD for psychosocial support for Mental Health
-                    & Well Being of Students
-                  </p>
-                </li>
-                <li>
-                  <h5>Webinar on Yoga and Mental health</h5>
-                  <p>
-                    Dr Gangadhar, the Director of NIMHANS and Dr Hemant Bhargav ,
-                    from very famous mental hospital of India NIMHAMS, Bangalore,
-                    conducted a webinar on Aug 14, 2020
-                  </p>
-                </li>
-                <li>
-                  <h5>You Only Live Once!</h5>
-                  <p>
-                    A unique interactive STRESS MANAGEMENT SESSION FOR YOUTH, a joint
-                    venture of Babyon's NEWTON CDC, Jaipur, and Adolescent Health
-                    Academy branches of Jaipur and Nagpur and Academy of Pediatrics
-                    Nagpur on Sept 23, 2020. conducted by Well known Pediatrician, a
-                    speaker from Surat and National secretary of Adolescent Health
-                    Academy Dr Sushma Desai on Sept 23, 2020.
-                  </p>
-                </li>
-                <li>
-                  <h5>How to take care of your mental health </h5>
-                  <p>Seminar by SikhNet on Dec 12, 2020</p>
-                </li>
-                <li>
-                  <h5>
-                    Eliminating stress & worry from life by AICTE on April 12,2021
-                  </h5>
-                  <p>
-                    Faculty Development Cell (FDC), AICTE organized an online to help
-                    Faculty Members
-                  </p>
-                </li>
-                <li>
+              <li>
                   <h5>Heartfulness Meditation Webinar by CWPH on Nov 20, 2021</h5>
                   <p>
                     Online webinar on Mindset and ways to learn Heartfulness
@@ -257,22 +217,6 @@ function Activities() {
                     lot in our life to make us more healthy, productive and happy.
                   </p>
                 </li>
-              </ul>
-            </p>
-            <div className="col-md-12 seminar-div">
-              <img
-                className="seminar-images"
-                src="/images/4dayseminar_1.png"
-                alt="image"
-              />
-              <img
-                className="seminar-images"
-                src="/images/4dayseminar_2.png"
-                alt="image"
-              />
-            </div>
-            <p style={{ textAlign: "left", width: "100vw" }}>
-              <ul>
                 <li>
                   <h5>Cloth Collection and and Distribution</h5>
                   <p>
@@ -357,6 +301,73 @@ function Activities() {
                     to guide Y21 to start their college life with full enthusiasm and
                     energy and live a great life learning Time Management,
                     Cooperation and the Greatest Friendship.
+                  </p>
+                </li>
+              </ul>
+            </p>
+            <div className="col-md-12" style={{ marginTop: "10px" }}>
+              <h3 style={style2}>3rd Party Events</h3>
+            </div>
+            {third_party_events.map((event, i) => (
+              <div className="col-lg-4 col-md-6 col-12" key={i}>
+                <div
+                  className="service-item"
+                  // style={{ height: "270px" }}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    history.push(`/activities/${event.id}`, { state: event });
+                  }}
+                >
+                  <img
+                    className="act-image"
+                    src={event.image}
+                    style={{ height: "158px" }}
+                  />
+                  <h4 style={style2}>{event.title}</h4>
+                  <p className="activitiesPara">{event.text}</p>
+                </div>
+              </div>
+            ))}
+            <div className="col-md-12" style={{ marginTop: "10px" }}></div>
+            <p style={{ textAlign: "left" }}>
+              <ul>
+                <li>
+                  <h5>MANODARPAN by MHRD on July 20, 2020</h5>
+                  <p>
+                    An initiative by MHRD for psychosocial support for Mental Health
+                    & Well Being of Students
+                  </p>
+                </li>
+                <li>
+                  <h5>Webinar on Yoga and Mental health</h5>
+                  <p>
+                    Dr Gangadhar, the Director of NIMHANS and Dr Hemant Bhargav ,
+                    from very famous mental hospital of India NIMHAMS, Bangalore,
+                    conducted a webinar on Aug 14, 2020
+                  </p>
+                </li>
+                <li>
+                  <h5>You Only Live Once!</h5>
+                  <p>
+                    A unique interactive STRESS MANAGEMENT SESSION FOR YOUTH, a joint
+                    venture of Babyon's NEWTON CDC, Jaipur, and Adolescent Health
+                    Academy branches of Jaipur and Nagpur and Academy of Pediatrics
+                    Nagpur on Sept 23, 2020. conducted by Well known Pediatrician, a
+                    speaker from Surat and National secretary of Adolescent Health
+                    Academy Dr Sushma Desai on Sept 23, 2020.
+                  </p>
+                </li>
+                <li>
+                  <h5>How to take care of your mental health </h5>
+                  <p>Seminar by SikhNet on Dec 12, 2020</p>
+                </li>
+                <li>
+                  <h5>
+                    Eliminating stress & worry from life by AICTE on April 12,2021
+                  </h5>
+                  <p>
+                    Faculty Development Cell (FDC), AICTE organized an online to help
+                    Faculty Members
                   </p>
                 </li>
               </ul>
