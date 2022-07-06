@@ -42,7 +42,8 @@ function Developers() {
                 <div className="below-dev-image">
                   <img
                     className="dev-image"
-                    src="/images/lakshit-somani.png"
+                    // src="/images/lakshit-somani.png"
+                    src="/images/LakshitSomani_pic.jpg"
                   />
                 </div>
                 <h3 style={{ fontWeight: "bold" }}>LAKSHIT SOMANI</h3>
