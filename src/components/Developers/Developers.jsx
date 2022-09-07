@@ -43,7 +43,7 @@ function Developers() {
                   <img
                     className="dev-image"
                     // src="/images/lakshit-somani.png"
-                    src="/images/LakshitSomani_pic.jpg"
+                    src="/images/ProfilePic.jpeg"
                   />
                 </div>
                 <h3 style={{ fontWeight: "bold" }}>LAKSHIT SOMANI</h3>
